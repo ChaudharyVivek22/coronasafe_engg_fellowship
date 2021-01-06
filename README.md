@@ -1,13 +1,3 @@
-## Important Note:
-
-I had added this at `line 13` in todo.test.js.
-
-```
-deleteFile(`${__dirname}/database.json`);
-```
-
-Reason: Few test (to be exact 4 tests) were executing on data left from previous tests. In doing so, they were failing repeadly but the same were not if executed individually. So before each test that line is to delete the database.json file automatically.
-
 # CoronaSafe Engineering Fellowship Test Problem
 
 Thanks for applying to the CoronaSafe Engineering fellowship!
